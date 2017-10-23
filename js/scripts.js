@@ -15,3 +15,5 @@ function drawTree(i){
 	}  
 
 }
+
+drawTree(12);
