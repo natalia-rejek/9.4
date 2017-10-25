@@ -1,4 +1,4 @@
-function drawTree(i) {
+function drawTree (i) {
     
 	for (var i = 0; i <= 5; i++){
  
@@ -16,4 +16,4 @@ function drawTree(i) {
 
 }
 
-console.log(navigation);
+console.log (drawTree (5));
