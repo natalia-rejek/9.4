@@ -1,6 +1,6 @@
-function drawTree (i) {
+function drawTree (levels) {
     
-	for (var i = 0; i <= 5; i++){
+	for (var i = 0; i <= levels; i++){
  
 		var star = '';
           
@@ -16,4 +16,4 @@ function drawTree (i) {
 
 }
 
-console.log (drawTree (5));
+drawTree (5);
